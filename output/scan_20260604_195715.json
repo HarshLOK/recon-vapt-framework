@@ -1,0 +1,559 @@
+{
+  "target": "Https://hitachi.service-now.com",
+  "timestamp": "20260604_195715",
+  "data": {
+    "dns": {
+      "A": [
+        "148.139.112.210"
+      ],
+      "MX": [],
+      "TXT": [],
+      "NS": []
+    },
+    "http": {
+      "server": "snow_adc",
+      "technologies": {},
+      "security_headers": {
+        "Strict-Transport-Security": true,
+        "Content-Security-Policy": false,
+        "X-Frame-Options": true,
+        "X-Content-Type-Options": true,
+        "Referrer-Policy": true,
+        "Permissions-Policy": false
+      },
+      "raw_headers": {
+        "server": "snow_adc",
+        "date": "Thu, 04 Jun 2026 14:26:11 GMT",
+        "content-type": "text/html;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "set-cookie": "BIGipServerpool_hitachi=bff6be62db42486bf6da77cc4b1905a1; httponly; secure; samesite=None; path=/, JSESSIONID=7BB27E463648185F255A662AE9580C94; Path=/; Secure; HttpOnly; SameSite=None, glide_user=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly; SameSite=None, glide_user_session=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly; SameSite=None, glide_user_route=glide.327ad1ada1e6be7bc820d09d914af319; Max-Age=2147483647; Expires=Tue, 22-Jun-2094 17:40:18 GMT; Path=/; Secure; HttpOnly; SameSite=None, glide_node_id_for_js=36db80d065221aec16ec66104b170e423ece8f664c20920fc8136fce074ec4d1; Path=/; Secure; SameSite=None",
+        "server-timing": "t;desc=\"b5d9c8913b5d\", sem_wait;dur=0, sesh_wait;dur=0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-is-logged-in": "false",
+        "x-is-visitor": "false",
+        "x-transaction-id": "b5d9c8913b5d",
+        "x-content-type-options": "nosniff",
+        "pragma": "no-store,no-cache",
+        "cache-control": "no-cache,no-store,must-revalidate,max-age=-1",
+        "expires": "0",
+        "referrer-policy": "same-origin",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=63072000; includeSubDomains"
+      }
+    },
+    "crawl": {
+      "pages_crawled": [
+        "https://hitachi.service-now.com/login.do",
+        "https://hitachi.service-now.com/login_locate_sso.do",
+        "https://hitachi.service-now.com/$pwd_reset.do?sysparm_url=ss_default",
+        "Https://hitachi.service-now.com"
+      ],
+      "links_found": [
+        "https://hitachi.service-now.com/login.do",
+        "https://hitachi.service-now.com/login_locate_sso.do",
+        "https://hitachi.service-now.com/$pwd_reset.do?sysparm_url=ss_default"
+      ],
+      "forms": [
+        {
+          "action": "https://hitachi.service-now.com/login.do",
+          "method": "POST",
+          "inputs": [
+            {
+              "name": "sysparm_ck",
+              "type": "hidden",
+              "value": "b1d940913b5d039083cb0c3eb3e45a6b247a0aecbd6cdaf2765690969d26bac4fe89f6ef"
+            },
+            {
+              "name": "user_name",
+              "type": "text",
+              "value": ""
+            },
+            {
+              "name": "user_password",
+              "type": "password",
+              "value": ""
+            },
+            {
+              "name": "ni.nolog.user_password",
+              "type": "hidden",
+              "value": "true"
+            },
+            {
+              "name": "ni.noecho.user_name",
+              "type": "hidden",
+              "value": "true"
+            },
+            {
+              "name": "ni.noecho.user_password",
+              "type": "hidden",
+              "value": "true"
+            },
+            {
+              "name": "screensize",
+              "type": "hidden",
+              "value": ""
+            },
+            {
+              "name": "sys_action",
+              "type": "hidden",
+              "value": "none"
+            },
+            {
+              "name": "sysparm_login_url",
+              "type": "hidden",
+              "value": "welcome.do"
+            }
+          ]
+        },
+        {
+          "action": "https://hitachi.service-now.com/slushbucket.do",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "sysparm_referring_url",
+              "type": "hidden",
+              "value": "navpage.do"
+            },
+            {
+              "name": "sysparm_view",
+              "type": "hidden",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "https://hitachi.service-now.com/login.do",
+          "method": "POST",
+          "inputs": [
+            {
+              "name": "sysparm_ck",
+              "type": "hidden",
+              "value": "b1d940913b5d039083cb0c3eb3e45a6b247a0aecbd6cdaf2765690969d26bac4fe89f6ef"
+            },
+            {
+              "name": "sso_selector_id",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "https://hitachi.service-now.com/slushbucket.do",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "sysparm_referring_url",
+              "type": "hidden",
+              "value": "login_locate_sso.do"
+            },
+            {
+              "name": "sysparm_view",
+              "type": "hidden",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "https://hitachi.service-now.com/$pwd_reset.do?sysparm_url=ss_default",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "sysparm_process_id",
+              "type": "hidden",
+              "value": "c6b0c20667100200a5a0f3b457415ad5"
+            },
+            {
+              "name": "midserver_status",
+              "type": "hidden",
+              "value": ""
+            },
+            {
+              "name": "sysparm_processor_id_0",
+              "type": "hidden",
+              "value": "fb9b36b3bf220100710071a7bf07390b"
+            },
+            {
+              "name": "sysparm_user_id_0",
+              "type": "text",
+              "value": ""
+            },
+            {
+              "name": "sysparm_captcha",
+              "type": "text",
+              "value": ""
+            },
+            {
+              "name": "sysparm_action",
+              "type": "hidden",
+              "value": "password_reset_form"
+            }
+          ]
+        },
+        {
+          "action": "https://hitachi.service-now.com/$pwd_reset.do?sysparm_url=ss_default",
+          "method": "POST",
+          "inputs": [
+            {
+              "name": "sysparm_ck",
+              "type": "hidden",
+              "value": "b1d940913b5d039083cb0c3eb3e45a6b247a0aecbd6cdaf2765690969d26bac4fe89f6ef"
+            },
+            {
+              "name": "sysparm_error",
+              "type": "hidden",
+              "value": ""
+            },
+            {
+              "name": "pwd_csrf_token",
+              "type": "hidden",
+              "value": "5NAJLnT7NovCvqj3AsmIOzmWGdkmfnyPwman/u5Ies4="
+            },
+            {
+              "name": "sysparm_process_id",
+              "type": "hidden",
+              "value": "c6b0c20667100200a5a0f3b457415ad5"
+            }
+          ]
+        },
+        {
+          "action": "https://hitachi.service-now.com/slushbucket.do",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "sysparm_referring_url",
+              "type": "hidden",
+              "value": "$pwd_reset.do?sysparm_url=ss_default"
+            },
+            {
+              "name": "sysparm_view",
+              "type": "hidden",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "https://hitachi.service-now.com/login.do",
+          "method": "POST",
+          "inputs": [
+            {
+              "name": "sysparm_ck",
+              "type": "hidden",
+              "value": "b1d940913b5d039083cb0c3eb3e45a6b247a0aecbd6cdaf2765690969d26bac4fe89f6ef"
+            },
+            {
+              "name": "user_name",
+              "type": "text",
+              "value": ""
+            },
+            {
+              "name": "user_password",
+              "type": "password",
+              "value": ""
+            },
+            {
+              "name": "ni.nolog.user_password",
+              "type": "hidden",
+              "value": "true"
+            },
+            {
+              "name": "ni.noecho.user_name",
+              "type": "hidden",
+              "value": "true"
+            },
+            {
+              "name": "ni.noecho.user_password",
+              "type": "hidden",
+              "value": "true"
+            },
+            {
+              "name": "screensize",
+              "type": "hidden",
+              "value": ""
+            },
+            {
+              "name": "sys_action",
+              "type": "hidden",
+              "value": "none"
+            }
+          ]
+        },
+        {
+          "action": "https://hitachi.service-now.com/slushbucket.do",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "sysparm_referring_url",
+              "type": "hidden",
+              "value": "login.do"
+            },
+            {
+              "name": "sysparm_view",
+              "type": "hidden",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "js_files": [
+        "https://hitachi.service-now.com/scripts/heisenberg/heisenberg_all.jsx?v=04-29-2026_2044",
+        "https://hitachi.service-now.com/$pwd_util.jsdbx?v=04-29-2026_2044&c=16_349",
+        "https://hitachi.service-now.com/pwd_mobile.jsdbx?v=04-29-2026_2044&c=16_349",
+        "https://hitachi.service-now.com/legacy_date_time_choices_processor.do?lang=en",
+        "https://hitachi.service-now.com/scripts/polaris_theme_refresh_observer.jsx?v=04-29-2026_2044",
+        "https://hitachi.service-now.com/scripts/js_includes_customer.jsx?v=04-29-2026_2044&lp=Mon_May_25_09_27_25_PDT_2026&c=16_349",
+        "https://hitachi.service-now.com/scripts/thirdparty/dom_purify/purify.jsx?v=04-29-2026_2044&sysparm_substitute=false",
+        "https://hitachi.service-now.com/OverrideLoginWrapperElementStyle.jsdbx?v=04-29-2026_2044&c=16_349",
+        "https://hitachi.service-now.com/scripts/doctype/js_includes_legacy.jsx?v=04-29-2026_2044&lp=Mon_May_25_09_27_25_PDT_2026&c=16_349",
+        "https://hitachi.service-now.com/scripts/doctype/polaris/login_wrapper/gradients.js",
+        "https://hitachi.service-now.com/scripts/ui_page_footer.jsx?v=04-29-2026_2044",
+        "https://hitachi.service-now.com/pwd_csrf_common_ui_script.jsdbx?v=04-29-2026_2044&c=16_349",
+        "https://hitachi.service-now.com/uxasset/externals/service-worker/loader.jsdbx?uxpcb=1779729047347",
+        "https://hitachi.service-now.com/scripts/doctype/polaris/login_wrapper/parallax.js",
+        "https://hitachi.service-now.com/scripts/js_includes_list_edit_doctype.jsx?v=04-29-2026_2044&lp=Mon_May_25_09_27_25_PDT_2026&c=16_349",
+        "https://hitachi.service-now.com/scripts/doctype/js_includes_doctype.jsx?v=04-29-2026_2044&lp=Mon_May_25_09_27_25_PDT_2026&c=16_349",
+        "https://hitachi.service-now.com/scripts/transaction_scope_includes.jsx?v=04-29-2026_2044",
+        "https://hitachi.service-now.com/scripts/app.guided_tours/js_guided_tours_includes.jsx?v=04-29-2026_2044",
+        "https://hitachi.service-now.com/scripts/doctype/z_last_include.jsx?v=04-29-2026_2044",
+        "https://hitachi.service-now.com/ConditionalFocus.jsdbx?v=04-29-2026_2044&c=16_349",
+        "https://hitachi.service-now.com/scripts/doctype/history_across_tabs.jsx?v=04-29-2026_2044",
+        "https://hitachi.service-now.com/scripts/doctype/js_includes_last_doctype.jsx?v=04-29-2026_2044&lp=Mon_May_25_09_27_25_PDT_2026&c=16_349",
+        "https://hitachi.service-now.com/scripts/lib/jquery_includes.jsx?v=04-29-2026_2044",
+        "https://hitachi.service-now.com/LDAPAuthClientUtils.jsdbx?v=04-29-2026_2044&c=16_349",
+        "https://hitachi.service-now.com/scripts/doctype/xperf_timing.jsx?v=04-29-2026_2044"
+      ],
+      "robots": [
+        "Disallow: /"
+      ],
+      "sitemap_urls": []
+    },
+    "ports": {
+      "148.139.112.210": {
+        "tcp": {
+          "80": {
+            "state": "open",
+            "service": "http",
+            "version": "",
+            "product": "snow_adc"
+          },
+          "443": {
+            "state": "open",
+            "service": "https",
+            "version": "",
+            "product": "snow_adc"
+          }
+        }
+      }
+    },
+    "subdomains": [],
+    "whois": {
+      "registrar": "CSC Corporate Domains, Inc.",
+      "created": "2001-07-04 10:45:33",
+      "expires": "2027-07-04 10:45:32",
+      "nameservers": [
+        "AUS1.AKAM.NET",
+        "EDNS140.ULTRADNS.BIZ",
+        "EDNS140.ULTRADNS.COM",
+        "EDNS140.ULTRADNS.NET",
+        "EDNS140.ULTRADNS.ORG",
+        "EUR6.AKAM.NET",
+        "NS1-234.AKAM.NET",
+        "NS1-98.AKAM.NET",
+        "USC4.AKAM.NET",
+        "USE1.AKAM.NET",
+        "USE3.AKAM.NET",
+        "USW1.AKAM.NET"
+      ],
+      "org": "None"
+    },
+    "findings": {
+      "headers": [
+        {
+          "type": "MISSING_HEADER",
+          "severity": "MEDIUM",
+          "header": "Content-Security-Policy",
+          "detail": "Missing. Prevents XSS. Should not contain 'unsafe-inline'."
+        },
+        {
+          "type": "WEAK_HEADER",
+          "severity": "LOW",
+          "header": "Referrer-Policy",
+          "detail": "Present but misconfigured: 'same-origin'"
+        },
+        {
+          "type": "MISSING_HEADER",
+          "severity": "MEDIUM",
+          "header": "Permissions-Policy",
+          "detail": "Missing. Controls browser features like camera, mic."
+        }
+      ],
+      "cors": [],
+      "injection": [
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/login.do",
+          "detail": "Template expression evaluated: {{7*7}} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/login.do",
+          "detail": "Template expression evaluated: ${7*7} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/login.do",
+          "detail": "Template expression evaluated: <%= 7*7 %> \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/slushbucket.do",
+          "detail": "Template expression evaluated: {{7*7}} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/slushbucket.do",
+          "detail": "Template expression evaluated: ${7*7} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/slushbucket.do",
+          "detail": "Template expression evaluated: <%= 7*7 %> \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/login.do",
+          "detail": "Template expression evaluated: {{7*7}} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/login.do",
+          "detail": "Template expression evaluated: ${7*7} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/login.do",
+          "detail": "Template expression evaluated: <%= 7*7 %> \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/slushbucket.do",
+          "detail": "Template expression evaluated: {{7*7}} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/slushbucket.do",
+          "detail": "Template expression evaluated: ${7*7} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/slushbucket.do",
+          "detail": "Template expression evaluated: <%= 7*7 %> \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/$pwd_reset.do?sysparm_url=ss_default",
+          "detail": "Template expression evaluated: {{7*7}} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/$pwd_reset.do?sysparm_url=ss_default",
+          "detail": "Template expression evaluated: ${7*7} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/$pwd_reset.do?sysparm_url=ss_default",
+          "detail": "Template expression evaluated: <%= 7*7 %> \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/$pwd_reset.do?sysparm_url=ss_default",
+          "detail": "Template expression evaluated: {{7*7}} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/$pwd_reset.do?sysparm_url=ss_default",
+          "detail": "Template expression evaluated: ${7*7} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/$pwd_reset.do?sysparm_url=ss_default",
+          "detail": "Template expression evaluated: <%= 7*7 %> \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/slushbucket.do",
+          "detail": "Template expression evaluated: {{7*7}} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/slushbucket.do",
+          "detail": "Template expression evaluated: ${7*7} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/slushbucket.do",
+          "detail": "Template expression evaluated: <%= 7*7 %> \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/login.do",
+          "detail": "Template expression evaluated: {{7*7}} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/login.do",
+          "detail": "Template expression evaluated: ${7*7} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/login.do",
+          "detail": "Template expression evaluated: <%= 7*7 %> \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/slushbucket.do",
+          "detail": "Template expression evaluated: {{7*7}} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/slushbucket.do",
+          "detail": "Template expression evaluated: ${7*7} \u2192 49"
+        },
+        {
+          "type": "SSTI",
+          "severity": "CRITICAL",
+          "url": "https://hitachi.service-now.com/slushbucket.do",
+          "detail": "Template expression evaluated: <%= 7*7 %> \u2192 49"
+        }
+      ],
+      "ssrf": [],
+      "cves": []
+    }
+  }
+}

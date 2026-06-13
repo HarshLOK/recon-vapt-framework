@@ -1,0 +1,70 @@
+{
+  "target": "https://scanme.nmap.org",
+  "timestamp": "20260602_055530",
+  "data": {
+    "dns": {
+      "A": [
+        "45.33.32.156"
+      ],
+      "MX": [],
+      "TXT": [],
+      "NS": []
+    },
+    "http": {
+      "server": "Not disclosed",
+      "technologies": {},
+      "security_headers": {
+        "Strict-Transport-Security": false,
+        "Content-Security-Policy": false,
+        "X-Frame-Options": false,
+        "X-Content-Type-Options": false,
+        "Referrer-Policy": false,
+        "Permissions-Policy": false
+      },
+      "raw_headers": {}
+    },
+    "crawl": {
+      "pages_crawled": [
+        "https://scanme.nmap.org"
+      ],
+      "links_found": [],
+      "forms": [],
+      "js_files": [],
+      "robots": [],
+      "sitemap_urls": []
+    },
+    "js_requests": [],
+    "ports": {
+      "45.33.32.156": {
+        "tcp": {
+          "22": {
+            "state": "open",
+            "service": "ssh",
+            "version": "6.6.1p1 Ubuntu 2ubuntu2.13",
+            "product": "OpenSSH"
+          },
+          "80": {
+            "state": "open",
+            "service": "http",
+            "version": "2.4.7",
+            "product": "Apache httpd"
+          }
+        }
+      }
+    },
+    "subdomains": [],
+    "whois": {
+      "registrar": "DYNADOT LLC",
+      "created": "1999-01-18 05:00:00",
+      "expires": "2029-01-18 05:00:00",
+      "nameservers": [
+        "ns1.linode.com",
+        "ns2.linode.com",
+        "ns3.linode.com",
+        "ns4.linode.com",
+        "ns5.linode.com"
+      ],
+      "org": "Super Privacy Service LTD c/o Dynadot"
+    }
+  }
+}

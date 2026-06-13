@@ -1,0 +1,8 @@
+target: "https://owasp.org"
+mode: "passive"
+output_dir: "./output"
+rate_limit: 5
+timeout: 10
+max_pages: 20
+max_concurrent: 3
+ports: "22,80,443,3306,5432,8080,8443"

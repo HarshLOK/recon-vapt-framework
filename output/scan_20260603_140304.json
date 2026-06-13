@@ -1,0 +1,82 @@
+{
+  "target": "https://owasp.org",
+  "timestamp": "20260603_140304",
+  "data": {
+    "dns": {
+      "A": [],
+      "MX": [],
+      "TXT": [],
+      "NS": []
+    },
+    "http": {
+      "server": "Not disclosed",
+      "technologies": {},
+      "security_headers": {
+        "Strict-Transport-Security": false,
+        "Content-Security-Policy": false,
+        "X-Frame-Options": false,
+        "X-Content-Type-Options": false,
+        "Referrer-Policy": false,
+        "Permissions-Policy": false
+      },
+      "raw_headers": {}
+    },
+    "crawl": {
+      "pages_crawled": [
+        "https://owasp.org"
+      ],
+      "links_found": [],
+      "forms": [],
+      "js_files": [],
+      "robots": [],
+      "sitemap_urls": []
+    },
+    "ports": {},
+    "subdomains": [],
+    "whois": {},
+    "findings": {
+      "headers": [
+        {
+          "type": "MISSING_HEADER",
+          "severity": "MEDIUM",
+          "header": "Strict-Transport-Security",
+          "detail": "Missing. Prevents downgrade attacks. Should include max-age."
+        },
+        {
+          "type": "MISSING_HEADER",
+          "severity": "MEDIUM",
+          "header": "Content-Security-Policy",
+          "detail": "Missing. Prevents XSS. Should not contain 'unsafe-inline'."
+        },
+        {
+          "type": "MISSING_HEADER",
+          "severity": "MEDIUM",
+          "header": "X-Frame-Options",
+          "detail": "Missing. Prevents clickjacking. Should be DENY or SAMEORIGIN."
+        },
+        {
+          "type": "MISSING_HEADER",
+          "severity": "MEDIUM",
+          "header": "X-Content-Type-Options",
+          "detail": "Missing. Prevents MIME sniffing. Must be 'nosniff'."
+        },
+        {
+          "type": "MISSING_HEADER",
+          "severity": "MEDIUM",
+          "header": "Referrer-Policy",
+          "detail": "Missing. Controls referrer info. Should be strict."
+        },
+        {
+          "type": "MISSING_HEADER",
+          "severity": "MEDIUM",
+          "header": "Permissions-Policy",
+          "detail": "Missing. Controls browser features like camera, mic."
+        }
+      ],
+      "cors": [],
+      "injection": [],
+      "ssrf": [],
+      "cves": []
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "target": "https://example.com",
+  "timestamp": "20260602_061426",
+  "data": {
+    "dns": {
+      "A": [
+        "172.66.147.243",
+        "104.20.23.154"
+      ],
+      "MX": [
+        "."
+      ],
+      "TXT": [
+        "\"v=spf1 -all\"",
+        "\"_k2n1y4vw3qtb4skdx9e7dxt97qrmmq9\""
+      ],
+      "NS": [
+        "elliott.ns.cloudflare.com.",
+        "hera.ns.cloudflare.com."
+      ]
+    },
+    "http": {
+      "server": "cloudflare",
+      "technologies": {},
+      "security_headers": {
+        "Strict-Transport-Security": false,
+        "Content-Security-Policy": false,
+        "X-Frame-Options": false,
+        "X-Content-Type-Options": false,
+        "Referrer-Policy": false,
+        "Permissions-Policy": false
+      },
+      "raw_headers": {
+        "date": "Tue, 02 Jun 2026 00:43:20 GMT",
+        "content-type": "text/html",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "server": "cloudflare",
+        "last-modified": "Thu, 28 May 2026 04:54:11 GMT",
+        "allow": "GET, HEAD",
+        "age": "11868",
+        "cf-cache-status": "HIT",
+        "content-encoding": "gzip",
+        "cf-ray": "a0526c5bdf469a7e-NAG"
+      }
+    },
+    "crawl": {
+      "pages_crawled": [
+        "https://example.com"
+      ],
+      "links_found": [],
+      "forms": [],
+      "js_files": [],
+      "robots": [],
+      "sitemap_urls": []
+    },
+    "js_requests": [],
+    "ports": {
+      "172.66.147.243": {
+        "tcp": {
+          "80": {
+            "state": "open",
+            "service": "http",
+            "version": "",
+            "product": "Cloudflare http proxy"
+          },
+          "443": {
+            "state": "open",
+            "service": "http",
+            "version": "",
+            "product": "Cloudflare http proxy"
+          },
+          "8080": {
+            "state": "open",
+            "service": "http",
+            "version": "",
+            "product": "Cloudflare http proxy"
+          },
+          "8443": {
+            "state": "open",
+            "service": "http",
+            "version": "",
+            "product": "Cloudflare http proxy"
+          }
+        }
+      }
+    },
+    "subdomains": [],
+    "whois": {
+      "registrar": "RESERVED-Internet Assigned Numbers Authority",
+      "created": "1995-08-14 04:00:00",
+      "expires": "2026-08-13 04:00:00",
+      "nameservers": [
+        "ELLIOTT.NS.CLOUDFLARE.COM",
+        "HERA.NS.CLOUDFLARE.COM"
+      ],
+      "org": "None"
+    }
+  }
+}

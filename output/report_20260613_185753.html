@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html><head><meta charset='utf-8'>
+<title>VAPT Report — https://owasp.org</title>
+<style>
+  body { font-family: monospace; background: #1a1a2e; color: #eee; padding: 2rem; }
+  h1   { color: #00d4ff; }
+  h2   { color: #00d4ff; border-bottom: 1px solid #333; padding-bottom: 4px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+  th   { background: #16213e; color: #00d4ff; padding: 8px; text-align: left; }
+  td   { padding: 8px; border-bottom: 1px solid #333; vertical-align: top; }
+  .summary-box { display: inline-block; padding: 1rem 2rem;
+                  margin: 0.5rem; border-radius: 6px; text-align: center; }
+</style></head><body>
+<h1>VAPT Report</h1>
+<p><b>Target:</b> https://owasp.org<br>
+<b>Scan Time:</b> 20260613_185753</p>
+
+<h2>Executive Summary</h2>
+<div>
+  <div class='summary-box' style='background:#c0392b'>
+    <div style='font-size:2rem'>0</div>CRITICAL
+  </div>
+  <div class='summary-box' style='background:#e67e22'>
+    <div style='font-size:2rem'>0</div>HIGH
+  </div>
+  <div class='summary-box' style='background:#f39c12'>
+    <div style='font-size:2rem'>0</div>MEDIUM
+  </div>
+  <div class='summary-box' style='background:#2980b9'>
+    <div style='font-size:2rem'>1</div>LOW
+  </div>
+</div>
+
+<h2>Reconnaissance</h2>
+<table><tr><th>Item</th><th>Value</th></tr>
+  <tr><td>DNS A Records</td><td>104.20.44.163, 172.66.157.115</td></tr>
+  <tr><td>Server</td><td>cloudflare</td></tr>
+  <tr><td>Pages Crawled</td><td>20</td></tr>
+  <tr><td>Forms Found</td><td>3</td></tr>
+  <tr><td>Subdomains</td><td>0</td></tr>
+</table>
+
+<h2>Vulnerability Findings</h2>
+<table>
+  <tr><th>Severity</th><th>Type</th><th>Confidence</th><th>Detail</th></tr>
+  
+        <tr>
+            <td style='color:#3498db;font-weight:bold'>LOW</td>
+            <td>WEAK_HEADER</td>
+            <td>HIGH</td>
+            <td>Content-Security-Policy misconfigured — contains 'unsafe-inline', contains 'unsafe-eval'</td>
+        </tr>
+        <tr>
+            <td style='color:#95a5a6;font-weight:bold'>INFORMATIONAL</td>
+            <td>CORS_WILDCARD</td>
+            <td>MEDIUM</td>
+            <td>Wildcard CORS on public endpoint — low risk unless used on APIs.</td>
+        </tr>
+</table>
+
+<p style='color:#666;margin-top:2rem'>
+  All findings require manual validation. This report is for authorized testing only.
+</p>
+</body></html>
